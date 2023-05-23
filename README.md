@@ -5,7 +5,9 @@ $flex myscanner.l
 
 $gcc lex.yy.c -o scanner -lfl
 
-$./scanner <input-file> 
-  or $./scanner
+$./scanner <input-file>
+  
+#stdin
+$./scanner 
 
 ![test_ss](https://github.com/sumeyyekaragul/miniLexer/assets/90051994/b0ce67ea-8ae2-4660-bbc9-152020781c07)
