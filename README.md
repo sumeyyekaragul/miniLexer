@@ -5,3 +5,4 @@ $flex myscanner.l
 $gcc lex.yy.c -o scanner -lfl
 $./scanner <input-file> 
   or $./scanner
+[test.txt](https://github.com/sumeyyekaragul/miniLexer/files/11544089/test.txt)
